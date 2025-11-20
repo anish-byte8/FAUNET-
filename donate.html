@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faunet | Donate</title>
+    <link rel="stylesheet" href="donate.css" />
+</head>
+
+<body>
+
+    <div class="don-box">
+        <h1 class="title">Support Wildlife Conservation</h1>
+
+        <form class="don-form">
+
+            <label>Name</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Donation Amount (₹)</label>
+            <input type="number" min="1" required>
+
+
+            <label>Payment Method</label>
+            <div class="payment-options">
+                <label><input type="radio" name="pay" required> UPI</label>
+                <label><input type="radio" name="pay"> Card</label>
+                <label><input type="radio" name="pay"> Net Banking</label>
+            </div>
+
+            <label>Message</label>
+            <textarea rows="4"></textarea>
+
+            <button type="submit" class="submit-btn">Donate Now</button>
+
+        </form>
+    </div>
+
+</body>
+</html>

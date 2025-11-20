@@ -1,0 +1,98 @@
+body {
+    background-image: url(https://imgs.search.brave.com/mzwjkyLN12BHgPdVnhpUNkWEtkb-NJ-eNRpba4cSFuU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJiYXQuY29t/L2ltZy85MzA3MzYt/bWluaW1hbGlzdGlj/LWdyZWVuLWFlc3Ro/ZXRpYy13YWxscGFw/ZXIucG5n);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f1f1b3;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.don-box {
+    width: 45%;
+    margin: 50px auto;
+    padding: 30px;
+    background: #658C58;
+    border-radius: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    text-align: center;
+    color: #F0E491;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+.don-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-size: 18px;
+    color: #F0E491;
+}
+
+input, textarea {
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.preset-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.preset {
+    background: #364f33;
+    color: #F0E491;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.preset:hover {
+    background: #2e3f29;
+    transform: scale(1.05);
+}
+
+
+.payment-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.payment-options label {
+    font-size: 18px;
+}
+
+.submit-btn {
+    background: #F0E491;
+    color: #364f33;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.submit-btn:hover {
+    background: #d8c675;
+    transform: scale(1.05);
+}

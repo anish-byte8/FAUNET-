@@ -1,0 +1,67 @@
+html{
+            height: 100%;
+        }
+
+body {background-image:url(https://imgs.search.brave.com/J7UPkYqsDi6No1P043WACot2UMVRVeSnuPmvTiEkFxM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNDY1/OTk0MS5qcGc);
+            background-repeat: no-repeat;
+            background-size:100%;
+            background-attachment: fixed;
+    background-color: #f1f1b3;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dyk-header {
+    background:#658C58;
+    box-shadow:0 4px 20px rgba(0,0,0,0.25);
+    border-radius:40px;
+    text-align:center;
+    padding:25px;
+    margin:25px;
+    color:#F0E491;
+}
+
+
+.section-title {
+    margin-left: 35px;
+    font-size: 30px;
+    color:#F0E491;
+
+}
+
+
+.card-container {
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-bottom:25px;
+}
+
+
+.card {
+    background:#658C58;
+    padding: 25px;
+    border-radius:40px;
+    width:26%;
+    text-align:center;
+    box-shadow:0 4px 20px rgba(0,0,0,0.25);
+    transition: transform .3s, background-color .3s;
+}
+
+.card:hover {
+    background:#364f33;
+    transform:scale(1.05);
+}
+
+.card img {
+    width:100%;
+    aspect-ratio:4/3;
+    border-radius:30px;
+    border:2px solid #F0E491;
+    margin-bottom:15px;
+}
+
+.text1 { color:#F0E491; font-size:40px; }
+.text2 { color:#F0E491; font-size:15px; line-height:1.4; }
