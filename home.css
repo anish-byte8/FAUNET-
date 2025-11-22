@@ -132,7 +132,7 @@ html{
             width:49.5%;
             border-radius: 40px;
             margin: 25px;
-            height: 46vh;
+            height: auto ;
         
         }
         .info-sum:hover{
